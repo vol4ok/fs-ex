@@ -88,11 +88,11 @@ copyFile = function(srcFile, destFile, cb) {
   return fdr.pipe(fdw);
 };
 
-module.exports = fs;
-
-__extends(exports, {
+__extends(fs, {
   mkdirp: mkdirp,
   mkdirpSync: mkdirpSync,
   copyFileSync: copyFileSync,
   copyFile: copyFile
 });
+
+module.exports = fs;

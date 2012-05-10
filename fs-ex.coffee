@@ -65,5 +65,5 @@ copyFile = (srcFile, destFile, cb) ->
 # rmrf = (path) ->
 # rmrfSync = (path) ->
 
+fs extends {mkdirp, mkdirpSync, copyFileSync, copyFile}
 module.exports = fs
-exports extends {mkdirp, mkdirpSync, copyFileSync, copyFile}
