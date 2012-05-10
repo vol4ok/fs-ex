@@ -1,0 +1,13 @@
+{
+  "author": "vol4ok <hello@vol4ok.net>",
+  "name": "fs-ex",
+  "description": "extended fs library",
+  "version": "0.0.1",
+  "main": "fs-ex.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
