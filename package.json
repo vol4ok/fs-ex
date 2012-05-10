@@ -4,7 +4,9 @@
   "description": "extended fs library",
   "version": "0.0.1",
   "main": "fs-ex.js",
-  "dependencies": {},
+  "dependencies": {
+    "fs-walker": ">=0.0.6"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
